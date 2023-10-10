@@ -48,78 +48,56 @@ int jitc_compile(const char *input, const char *output){
     }
     else if(pid == 0){
         /* child process */
-        char *argv[] = {"gcc", "-fPIC", "-shared", "-o", NULL, NULL, NULL};
-        argv[4] = (char*)output;
-        argv[5] = (char*)input;
+        char *argv[] = {"gcc", "-O3", "-fPIC", "-shared", "-Werror", "-Wextra", "-o", NULL, NULL, NULL};
+        argv[7] = (char*)output;
+        argv[8] = (char*)input;
 
         execv("/usr/bin/gcc", argv);
+        exit(0);
     }
     else {
         /* parent process */
         int status;
-        if(waitpid(pid, &status, 0) != -1){
-            int exit_status = WEXITSTATUS(status);
-            /* non zero means normal exit */
-            if ( WIFEXITED(status)) {
-                printf("jitc_compile succcessful. Exit status: %d\n", exit_status);
-                return 0;
+        waitpid(pid, &status, 0);
+        /* non zero means normal exit */
+        if ( WIFEXITED(status)) {
+            /* jitc compile successful*/
+            return WEXITSTATUS(status);
             }
-            else{
-                printf("jitc_compile failed. Abnormal exit status: %d\n", exit_status);
+
+        else{
+            
+            /*jitc compile failed*/
+            return status;
             }
         }
     }
-
-    exit(EXIT_FAILURE);
-}
 
 struct jitc *jitc_open(const char *pathname){
     /* search if typecast */ 
     jitc = malloc(sizeof(struct jitc));
     if(jitc==NULL){
-        printf("jitc_open failed. Failed to allocate memory with malloc.\n");
+        /* malloc failed*/
         return NULL;
     }
     jitc->handle = dlopen (pathname, RTLD_LAZY|RTLD_LOCAL);
     if (jitc->handle == NULL) {
-        printf("jitc_open failed. Error while loading .so file: %s\n", dlerror());
+        /* loading .so file failed*/
         return NULL;
     }
-    printf("jitc_open successful\n");
+    /* jitc open successful*/
     return jitc;
 }
 
 long jitc_lookup(struct jitc *jitc, const char *symbol){
-
-    long lookup =  (long) dlsym(jitc->handle, symbol);
-    if(lookup){
-        printf("jitc_lookup successful\n");
-        return lookup;
-    }
-    else{
-        printf("jitc_lookup failed. Error: %s\n", dlerror());
-        return 0;
-    }
+    /* dlsym return non zero value on success*/
+    return (long) dlsym(jitc->handle, symbol);
 
 }
 
-/**
- * Unloads a previously loaded dynamically loadable module.
- *
- * jitc: an opaque handle previously obtained by calling jitc_open()
- *
- * Note: jitc may be NULL
- */
-
 void jitc_close(struct jitc *jitc){
-
-    int errorClose = dlclose(jitc->handle);
-    if(errorClose){
-        printf("jitc_close failed. Error: %s\n", dlerror());
-    }
-    else{
-        printf("jitc_close successful\n");
-    }
+    /* dlclose returns 0 on success*/
+    dlclose(jitc->handle);
     /* free malloc */
     free(jitc);
 }

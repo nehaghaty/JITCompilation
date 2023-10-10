@@ -7,14 +7,16 @@
  * main.c
  */
 
+#include <math.h>
 #include "jitc.h"
 #include "parser.h"
 #include "system.h"
 
-/* export LD_LIBRARY_PATH=. */
+double sigmoid(double x) {
+    return 1 / (1 + exp(-x));
+}
 
-static void
-reflect(const struct parser_dag *dag, FILE *file)
+static void reflect(const struct parser_dag *dag, FILE *file)
 {
 	if (dag) {
 		reflect(dag->left, file);
@@ -66,6 +68,7 @@ reflect(const struct parser_dag *dag, FILE *file)
 	}
 }
 
+/*
 static void
 generate(const struct parser_dag *dag, FILE *file)
 {
@@ -73,11 +76,23 @@ generate(const struct parser_dag *dag, FILE *file)
 	reflect(dag, file);
 	fprintf(file, "return t%d;\n}\n", dag->id);
 }
+*/
 
-typedef double (*evaluate_t)(void);
+/* call sigmoid funtion  in out.c*/
+static void
+generate_with_sigmoid(const struct parser_dag *dag, FILE *file)
+{
+	fprintf(file, "typedef double (*sigmoid_t)(double);\n");
+	fprintf(file, "double evaluate(sigmoid_t sigmoid_fnc) {\n");
+	reflect(dag, file);
+	fprintf(file, "return sigmoid_fnc(t%d);\n}\n", dag->id);
+}
 
-int
-main(int argc, char *argv[])
+
+
+typedef double (*evaluate_t)(double(double));
+
+int main(int argc, char *argv[])
 {
 	const char *SOFILE = "out.so";
 	const char *CFILE = "out.c";
@@ -106,7 +121,7 @@ main(int argc, char *argv[])
 		TRACE("fopen()");
 		return -1;
 	}
-	generate(parser_dag(parser), file);
+	generate_with_sigmoid(parser_dag(parser), file);
 	parser_close(parser);
 	fclose(file);
 
@@ -119,13 +134,14 @@ main(int argc, char *argv[])
 	file_delete(CFILE);
 
 	/* dynamic load */
- 	if (!(jitc = jitc_open(SOFILE)) || !(fnc = (evaluate_t)jitc_lookup(jitc, "evaluate"))){
+ 	if (!(jitc = jitc_open(SOFILE)) || 
+			!(fnc = (evaluate_t)jitc_lookup(jitc, "evaluate"))){
 		file_delete(SOFILE);
 		jitc_close(jitc);
 		TRACE(0);
 		return -1;
 	}
-	printf("%f\n", fnc());
+	printf("%f\n", fnc(&sigmoid));
 
 
 	/* done */
