@@ -5,7 +5,7 @@ Command:
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose --log-file=valgrind-out.txt ./cs238 10+14
 ```
 
-Output:
+[Output:](https://github.com/nehaghaty/OperatingSystemsProjects/blob/main/p1/valgrind-out.txt)
 ```
 ==9306== Memcheck, a memory error detector
 ==9306== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
@@ -138,9 +138,9 @@ Output:
 
 Command:
 ```
-strace -o strace_output.txt ./cs238 1+1> stdout.txt 2> stderr.txt
+strace -o strace_output.txt ./cs238 10+14> stdout.txt 2> stderr.txt
 ```
-Output:
+[Output:](https://github.com/nehaghaty/OperatingSystemsProjects/blob/main/p1/strace_output.txt)
 
 ```
 execve("./cs238", ["./cs238", "10+14"], 0x7ffffbf8a6e8 /* 25 vars */) = 0
