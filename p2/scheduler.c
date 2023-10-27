@@ -76,9 +76,6 @@ struct thread* thread_candidate(void){
         current = state.curr_thread->next;
         current_ref = state.curr_thread->next;
     }
-    /*traverse list, find valid states: state_, state_sleeping
-    return next thread
-    return null if nothing runnable: terminating condition, else return thread object */
     do{
         if(current==NULL){
             current = state.head;
@@ -94,19 +91,6 @@ struct thread* thread_candidate(void){
 }
 
 void schedule(void){
-
-    /*
-        create thread object = thread candidate
-            if thread candidate is null return 
-            else
-                first time executing
-                    if thread not initialized
-                    initialize stack <-- assembly
-                    call function instead of longjmp to state
-                not first time
-                    longjmp(thread->ctx);
-    */
-
         struct thread *thread = thread_candidate();
         if (thread == NULL) {
             /* all threads completed execution */
@@ -162,21 +146,24 @@ int scheduler_create(scheduler_fnc_t fnc, void *arg ){
     return 0; /* success */
 }
 
+void signal_handler(int signum) {
+  if (signum == SIGALRM) {
+    printf("Signal Handler was Triggered\n");
+    scheduler_yield();
+    alarm(0);
+  }
+}
+
 void scheduler_execute(void){
-    setjmp(state.ctx); /* checkpoint */
-    schedule(); /* majority of the time will be spent here */
+    setjmp(state.ctx);
+    signal(SIGALRM, signal_handler);
+    alarm(1); 
+    schedule();
+    printf("Scheduler has completed\n");
     destroy();
 }
 
 void scheduler_yield(void){
-    /* checkpoint-> currently running thread
-    two paths 
-    return either null
-    or returns checkpoint of old thread and makes it sleep
-    state.thread -> status = SLEEPING; <-- do this first, in case of only thread
-    longjmp(state.ctx) <-- go back to old state 
-    */
-   /* checkpoint-> currently running thread */
    int val = setjmp(state.curr_thread->ctx);
    if(val==0){
         state.curr_thread->status = STATUS_SLEEPING;
