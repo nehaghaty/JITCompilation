@@ -52,6 +52,10 @@ struct thread {
 struct thread* thread_create(scheduler_fnc_t fnc, void *arg){
     struct thread* new_thread = (struct thread *)malloc(sizeof(struct thread));
     size_t page_sz = page_size();
+    if (!new_thread) {
+        perror("malloc");
+        return NULL; /* error in memory allocation */
+    }
     new_thread->stack.memory_ = (void*)malloc(4*page_sz);
     if (!new_thread->stack.memory_) {
         perror("malloc");
@@ -148,7 +152,7 @@ int scheduler_create(scheduler_fnc_t fnc, void *arg ){
 
 void signal_handler(int signum) {
   if (signum == SIGALRM) {
-    printf("Signal Handler was Triggered\n");
+    printf("signal handler called\n");
     scheduler_yield();
     alarm(0);
   }
@@ -159,7 +163,6 @@ void scheduler_execute(void){
     signal(SIGALRM, signal_handler);
     alarm(1); 
     schedule();
-    printf("Scheduler has completed\n");
     destroy();
 }
 

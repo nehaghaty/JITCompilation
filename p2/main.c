@@ -20,8 +20,6 @@ _thread_(void *arg)
 	for (i=0; i<100; ++i) {
 		printf("%s %d\n", name, i);
 		us_sleep(20000);
-		/* implement this*/
-		scheduler_yield();
 	}
 }
 
