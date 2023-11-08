@@ -1,27 +1,27 @@
-execve("./cs238", ["./cs238"], 0x7fff10743fe0 /* 34 vars */) = 0
-brk(NULL)                               = 0x55595aa8d000
-arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe87d1b2e0) = -1 EINVAL (Invalid argument)
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9abfb7000
+execve("./cs238", ["./cs238"], 0x7ffe21e03210 /* 34 vars */) = 0
+brk(NULL)                               = 0x55fb56dfd000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc9cfb6bc0) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb3fe333000
 access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64/x86_64", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64/x86_64", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/x86_64", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/tls", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64/x86_64", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64/x86_64", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64", 0x7ffe87d1a500, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/x86_64", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
-newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/nghatysa/projects/p1/OperatingSystemsProjects/p1", 0x7ffc9cfb5de0, 0) = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=26911, ...}, AT_EMPTY_PATH) = 0
-mmap(NULL, 26911, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa9abfb0000
+mmap(NULL, 26911, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb3fe32c000
 close(3)                                = 0
 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
@@ -30,567 +30,40 @@ pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 
 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\244;\374\204(\337f#\315I\214\234\f\256\271\32"..., 68, 896) = 68
 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2216304, ...}, AT_EMPTY_PATH) = 0
 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
-mmap(NULL, 2260560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9abd88000
-mmap(0x7fa9abdb0000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fa9abdb0000
-mmap(0x7fa9abf45000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7fa9abf45000
-mmap(0x7fa9abf9d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x214000) = 0x7fa9abf9d000
-mmap(0x7fa9abfa3000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa9abfa3000
+mmap(NULL, 2260560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb3fe104000
+mmap(0x7fb3fe12c000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fb3fe12c000
+mmap(0x7fb3fe2c1000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7fb3fe2c1000
+mmap(0x7fb3fe319000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x214000) = 0x7fb3fe319000
+mmap(0x7fb3fe31f000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb3fe31f000
 close(3)                                = 0
-mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9abd85000
-arch_prctl(ARCH_SET_FS, 0x7fa9abd85740) = 0
-set_tid_address(0x7fa9abd85a10)         = 32917
-set_robust_list(0x7fa9abd85a20, 24)     = 0
-rseq(0x7fa9abd860e0, 0x20, 0, 0x53053053) = 0
-mprotect(0x7fa9abf9d000, 16384, PROT_READ) = 0
-mprotect(0x555958e50000, 4096, PROT_READ) = 0
-mprotect(0x7fa9abff1000, 8192, PROT_READ) = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb3fe101000
+arch_prctl(ARCH_SET_FS, 0x7fb3fe101740) = 0
+set_tid_address(0x7fb3fe101a10)         = 35360
+set_robust_list(0x7fb3fe101a20, 24)     = 0
+rseq(0x7fb3fe1020e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7fb3fe319000, 16384, PROT_READ) = 0
+mprotect(0x55fb560ef000, 4096, PROT_READ) = 0
+mprotect(0x7fb3fe36d000, 8192, PROT_READ) = 0
 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
-munmap(0x7fa9abfb0000, 26911)           = 0
-getrandom("\x47\x2c\xbd\x0b\x3a\x47\xf9\xf8", 8, GRND_NONBLOCK) = 8
-brk(NULL)                               = 0x55595aa8d000
-brk(0x55595aaae000)                     = 0x55595aaae000
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+munmap(0x7fb3fe32c000, 26911)           = 0
+getrandom("\x2d\x63\x4e\xa1\x59\x0b\xcc\x64", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x55fb56dfd000
+brk(0x55fb56e1e000)                     = 0x55fb56e1e000
+rt_sigaction(SIGALRM, {sa_handler=0x55fb560ed750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fb3fe146520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
 alarm(1)                                = 0
 newfstatat(1, "", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_EMPTY_PATH) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, {tv_sec=0, tv_nsec=19820084}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55fb56e10fa0) = 0
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55fb56e10fa0) = 0
+...
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, {tv_sec=0, tv_nsec=9827098}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
 --- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
+rt_sigaction(SIGALRM, {sa_handler=0x55fb560ed750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fb3fe146520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fb3fe146520}, 8) = 0
 alarm(1)                                = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, {tv_sec=0, tv_nsec=13321256}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
---- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, {tv_sec=0, tv_nsec=13079047}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
---- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
---- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, {tv_sec=0, tv_nsec=16773906}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
---- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-alarm(0)                                = 1
-rt_sigreturn({mask=[]})                 = -1 EINTR (Interrupted system call)
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=19820084}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aaa0fa0) = 0
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-alarm(0)                                = 1
-rt_sigreturn({mask=[]})                 = -1 EINTR (Interrupted system call)
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=13321256}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa9cfa0) = 0
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-alarm(0)                                = 1
-rt_sigreturn({mask=[]})                 = -1 EINTR (Interrupted system call)
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=13079047}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa98fa0) = 0
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-alarm(0)                                = 1
-rt_sigreturn({mask=[]})                 = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa94fa0) = 0
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
-alarm(1)                                = 0
-alarm(0)                                = 1
-rt_sigreturn({mask=[]})                 = -1 EINTR (Interrupted system call)
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=16773906}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-write(1, "course! 0\ncourse! 1\ncourse! 2\nco"..., 4096) = 4096
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55595aa90fa0) = 0
-rt_sigaction(SIGALRM, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fa9abdca520}, {sa_handler=0x555958e4e750, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fa9abdca520}, 8) = 0
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55fb56e0cfa0) = 0
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55fb56e0cfa0) = 0
+...
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=20000000}, 0x55fb56e00fa0) = 0
+rt_sigaction(SIGALRM, {sa_handler=0x55fb560ed750, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fb3fe146520}, {sa_handler=0x55fb560ed750, sa_mask=[], sa_flags=SA_RESTORER|SA_NODEFER|SA_RESETHAND, sa_restorer=0x7fb3fe146520}, 8) = 0
 alarm(1)                                = 0
 write(1, "o 48\nhello 49\nhello 50\nhello 51\n"..., 464) = 464
 exit_group(0)                           = ?

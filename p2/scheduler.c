@@ -152,7 +152,6 @@ int scheduler_create(scheduler_fnc_t fnc, void *arg ){
 
 void signal_handler(int signum) {
   if (signum == SIGALRM) {
-    printf("signal handler called\n");
     scheduler_yield();
     alarm(0);
   }

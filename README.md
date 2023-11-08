@@ -6,3 +6,5 @@
 
 2. **Userspace Dynamic Thread Scheduler**: Develop a dynamic thread scheduler library with an API akin to the POSIX pthread library, providing the capability to create threads and enable cooperative concurrent execution among them. You can earn 3% extra-credit if you implement an automatic context switch (e.g., every second) from one thread to another without the need for the user threads to call scheduler_yield().
 
+3. **Storage Class Memory Manager**: Create a robust memory management system featuring an API reminiscent of the C malloc() function. This system will utilize a file as its underlying storage to ensure persistent data availability across different processes.
+
