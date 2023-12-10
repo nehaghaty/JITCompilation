@@ -9,3 +9,5 @@
 3. **Storage Class Memory Manager**: Create a robust memory management system featuring an API reminiscent of the C malloc() function. This system will utilize a file as its underlying storage to ensure persistent data availability across different processes.
 
 4. **Key/Value File System**: Develop a key/value file system that utilizes raw and direct I/O operations on a block device. Deploy your system on a loop-back device. Ensure that your implementation avoids reliance on kernel buffers for both reading and writing by incorporating efficient write buffering and read caching mechanisms to optimize performance.
+
+5. **System Performance Monitor**: Create a real-time system monitoring tool similar to the Unix top command that provides two different performance statistics in two different categories (e.g., CPU, memory, network, I/O). 
